@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(249,112,59);
+    background: linear-gradient(90deg, rgba(249,112,59,1) 0%, rgba(248,83,19,1) 100%);
+   
+    
+}
+
+#titulo{
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: #fff;
+
+}
+
+#container__secundario {
+    width: 700px;
+    padding: 30px 50px ;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 9px -7px 11px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px -7px 11px -2px rgba(0,0,0,0.75);
+    box-shadow: 9px -7px 11px -2px rgba(0,0,0,0.75);
+}
+
+#container__input{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+    position: relative;
+    
+}
+
+#container__input::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    border-top: 2px solid #666666;
+    border-radius: 30px;
+    margin-top: 70px;
+}
+
+#container__inputtxt{
+    outline: none;
+    border: none;
+    width: 80%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#container__btn {
+    width: 20%;
+    outline: none;
+    border: solid 1px black;
+    background-color: #f85313;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: #ffff;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+#container__btn:hover{
+    background-color: #f17240;
+    color: #ffff;
+    border: solid 1px black;
+}
+
+#container__palavra {
+    color: #f85313;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+#container__significado {
+    color: black;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 20px;
+    color: #f85313;
+}
